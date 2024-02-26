@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "652e",
+      "fullname": "Taehyung",
+      "email": "tae12@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "2f2b",
+      "fullname": "Jungkook",
+      "email": "jung13@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "8fda",
+      "fullname": "Estrella",
+      "email": "estrella@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "b15e",
+      "fullname": "Schoenstantt",
+      "email": "schos@gmail.com",
+      "password": "123"
+    }
+  ]
+}
