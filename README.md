@@ -1,27 +1,41 @@
 # SapbShop2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+#pasos para usar el proyecto
 
-## Development server
+tendras que clonar el repositorio con este link
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+https://github.com/PalomaresAndrea/sapb-review-gds0551-5
 
-## Code scaffolding
+#Instalación y Uso del Proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Navegar a la Carpeta del Proyecto
+Abre una terminal y navega hasta la carpeta del proyecto utilizando el siguiente comando:
 
-## Build
+cd nombre-de-la-carpeta
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Asegúrate de reemplazar nombre-de-la-carpeta con el nombre real de la carpeta donde se encuentra tu proyecto.
 
-## Running unit tests
+2. Instalar Dependencias
+Si no tienes las dependencias instaladas, ejecuta el siguiente comando para instalarlas:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+npm install
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Instalar bcryptjs
+Para la encriptación de contraseñas, debes instalar bcryptjs. Ejecuta el siguiente comando:
 
-## Further help
+npm install bcryptjs
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Uso del Proyecto
+Para ejecutar el proyecto, utiliza el siguiente comando:
+
+ng s --open
+
+Esto iniciará el servidor de desarrollo y abrirá automáticamente el navegador en http://localhost:4200/.
+
+Ejecutar JsonServer
+Para ejecutar json-server, utiliza el siguiente comando:
+
+json-server --watch db.json
+
+Esto iniciará json-server y utilizará el archivo db.json como tu base de datos simulada.
